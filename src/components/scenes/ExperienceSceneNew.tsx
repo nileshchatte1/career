@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import nileshPhoto from "@/assets/nilesh-photo.png";
 
 interface ExperienceSceneNewProps {
   logo: string;
@@ -26,22 +25,6 @@ const ExperienceSceneNew = ({ logo, company, role, period, skills, projects, ind
         <img src={logo} alt="" className="w-[600px] h-[600px] object-contain" />
       </motion.div>
 
-      {/* Animated photo silhouette on the side */}
-      <motion.div
-        className={`absolute ${isEven ? 'right-0' : 'left-0'} top-0 bottom-0 w-1/3 overflow-hidden pointer-events-none`}
-        initial={{ opacity: 0, x: isEven ? 100 : -100 }}
-        animate={{ opacity: 0.1, x: 0 }}
-        transition={{ duration: 1.2, delay: 0.3 }}
-      >
-        <img
-          src={nileshPhoto}
-          alt=""
-          className="h-full w-full object-cover"
-          style={{ filter: "grayscale(100%) contrast(1.5) brightness(0.5)" }}
-        />
-        <div className={`absolute inset-0 bg-gradient-to-${isEven ? 'l' : 'r'} from-transparent to-background`} />
-      </motion.div>
-
       {/* Cinematic light streak */}
       <motion.div
         className="absolute top-0 left-0 right-0 h-full pointer-events-none"
@@ -53,9 +36,6 @@ const ExperienceSceneNew = ({ logo, company, role, period, skills, projects, ind
         transition={{ duration: 1.5, delay: 0.5 }}
       />
 
-      {/* Letterbox bars */}
-      <div className="absolute top-0 left-0 right-0 h-[3vh] letterbox-bar z-20" />
-      <div className="absolute bottom-0 left-0 right-0 h-[3vh] letterbox-bar z-20" />
 
       <div className="relative z-10 container mx-auto px-6 md:px-12">
         {/* Chapter number */}
