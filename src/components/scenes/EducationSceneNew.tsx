@@ -81,7 +81,7 @@ const EducationSceneNew = () => {
               whileHover={{ borderColor: "hsl(43 80% 55% / 0.3)", scale: 1.02 }}
             >
               <p className="text-foreground/80 text-sm font-body leading-relaxed">
-                <span className="text-gold">★</span> Secured 552nd rank in CCAT exam — CDAC ACTS Pune
+                <span className="text-gold">★</span> Secured 552nd rank in CCAT exam, earning a place at CDAC ACTS Pune, India’s top CDAC institute
               </p>
             </motion.div>
             <motion.div
