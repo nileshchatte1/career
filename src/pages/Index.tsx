@@ -102,11 +102,11 @@ const Index = () => {
       case 0:
         return <IntroScene />;
       case 1:
-        return <ExperienceSceneNew {...experiences[0]} index={0} />;
+        return <ExperienceSceneNew {...experiences[2]} index={0} />;
       case 2:
         return <ExperienceSceneNew {...experiences[1]} index={1} />;
       case 3:
-        return <ExperienceSceneNew {...experiences[2]} index={2} />;
+        return <ExperienceSceneNew {...experiences[0]} index={2} />;
       case 4:
         return <SkillsSceneNew />;
       case 5:
