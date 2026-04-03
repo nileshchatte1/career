@@ -49,7 +49,7 @@ const SkillsSceneNew = () => {
       <div className="absolute top-0 left-0 right-0 h-[3vh] letterbox-bar z-20" />
       <div className="absolute bottom-0 left-0 right-0 h-[3vh] letterbox-bar z-20" />
 
-      <div className="relative z-10 container mx-auto px-6 md:px-12">
+      <div className="relative z-10 container mx-auto px-6 md:px-12 pt-[4vh] pb-[6vh]">
         <motion.div
           className="mb-12 text-center"
           initial={{ opacity: 0, y: 30 }}
