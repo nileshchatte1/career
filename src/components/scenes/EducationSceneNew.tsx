@@ -74,8 +74,8 @@ const EducationSceneNew = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         >
-          <p className="text-muted-foreground text-xs tracking-[0.5em] uppercase mb-6 font-body text-center">Achievements</p>
-          <div className="grid md:grid-cols-2 gap-6">
+          <p className="text-muted-foreground text-xs tracking-[0.5em] uppercase mb-4 lg:mb-6 font-body text-center">Achievements</p>
+          <div className="grid sm:grid-cols-2 gap-4 lg:gap-6">
             <motion.div
               className="bg-secondary/30 border border-gold/10 p-5"
               whileHover={{ borderColor: "hsl(43 80% 55% / 0.3)", scale: 1.02 }}
