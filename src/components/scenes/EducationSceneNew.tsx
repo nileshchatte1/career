@@ -3,7 +3,7 @@ import cdacLogo from "@/assets/cdac-logo.png";
 
 const EducationSceneNew = () => {
   return (
-    <section className="relative h-full w-full overflow-y-auto overflow-x-hidden cinema-gradient flex items-start py-12 md:py-8 lg:py-0" data-scroll-container>
+    <section className="relative h-full w-full overflow-y-auto overflow-x-hidden cinema-gradient py-12 md:py-8 lg:py-0">
       {/* Background logo */}
       <motion.div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
@@ -14,7 +14,8 @@ const EducationSceneNew = () => {
         <img src={cdacLogo} alt="" className="w-[500px] h-[500px] object-contain" />
       </motion.div>
 
-      <div className="relative z-10 container mx-auto px-6 md:px-12">
+      <div className="flex flex-col min-h-full justify-start md:justify-center">
+        <div className="relative z-10 container mx-auto px-6 md:px-12">
         <motion.div
           className="mb-12 text-center"
           initial={{ opacity: 0, y: 30 }}
@@ -90,6 +91,7 @@ const EducationSceneNew = () => {
             </motion.div>
           </div>
         </motion.div>
+      </div>
       </div>
     </section>
   );
