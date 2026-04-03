@@ -11,7 +11,7 @@ const skillCategories = [
 
 const SkillsSceneNew = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden cinema-gradient flex items-center">
+    <section className="relative h-full w-full overflow-y-auto cinema-gradient flex items-start md:items-center" data-scroll-container>
       {/* Animated grid background */}
       <motion.div
         className="absolute inset-0 opacity-[0.04]"
