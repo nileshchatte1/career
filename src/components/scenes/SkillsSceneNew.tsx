@@ -57,7 +57,7 @@ const SkillsSceneNew = () => {
           <h2 className="font-cinematic text-5xl md:text-6xl lg:text-8xl text-gold glow-gold">SKILLS</h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 max-w-5xl mx-auto">
           {skillCategories.map((cat, catIdx) => (
             <motion.div
               key={cat.label}
