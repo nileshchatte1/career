@@ -3,7 +3,7 @@ import cdacLogo from "@/assets/cdac-logo.png";
 
 const EducationSceneNew = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden cinema-gradient flex items-center">
+    <section className="relative h-full w-full overflow-y-auto overflow-x-hidden cinema-gradient flex items-start md:items-center py-16 md:py-0" data-scroll-container>
       {/* Background logo */}
       <motion.div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
