@@ -52,7 +52,7 @@ const IntroScene = () => {
         </motion.p>
 
         <motion.h1
-          className="font-cinematic text-7xl md:text-9xl lg:text-[10rem] text-gold glow-gold leading-none"
+          className="font-cinematic text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[10rem] text-gold glow-gold leading-none"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2, delay: 1.5, ease: [0.25, 0.46, 0.45, 0.94] }}
