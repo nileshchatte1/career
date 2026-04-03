@@ -61,7 +61,7 @@ const EducationSceneNew = () => {
               transition={{ duration: 0.4, delay: 0.8, type: "spring" }}
             />
             <p className="text-muted-foreground text-xs tracking-[0.3em] uppercase font-body mb-2">Sept 2020</p>
-            <h3 className="font-cinematic text-3xl md:text-4xl text-foreground">UNIVERSITY OF PUNE</h3>
+            <h3 className="font-cinematic text-2xl md:text-3xl lg:text-4xl text-foreground">UNIVERSITY OF PUNE</h3>
             <p className="font-elegant text-sm text-gold-dim tracking-wider mt-1">Bachelor of Engineering</p>
             <p className="text-foreground/60 text-sm mt-2 font-body">Graduated with 'Distinction'</p>
           </motion.div>
